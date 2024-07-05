@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display:block;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>
+                Fill the form
+            </h2>
+            <form>
+                <label for=""> Name :
+                    <input id="name" type="text" placeholder="Name">
+                </label>
+                <label for="">Email:
+                    <input type="email" name="" id="email"
+                    placeholder="email">
+                </label>
+                <label for="">Phone:
+                    <input type="text" id="phone" placeholder="Phone">
+                </label>
+                <fieldset>
+                   <legend> Select one</legend>
+                   <label for=" Dhaka">
+                    <input type="radio" name="Town" id="Dhaka">Dhaka
+                   </label>
+                   <label for="Khulna">
+                    <input type="radio" name="Town" id="Khulna">Khulna
+                   </label>
+                   <label for="Rajsahi">
+                    <input type="radio" name="Town" id="Raj">Rajshahi
+                   </label>
+                   
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Select one or more
+                    </legend>
+                    <label for="Boyra">
+                        <input type="checkbox" name="city" id="Boyra"> Boyra
+                    </label>
+                    <label for="Koyra">
+                        <input type="checkbox" name="city" id="Koyra"> Koyra
+                    </label>
+                    <label for="Medical">
+                        <input type="checkbox" name="city" id="Medical"> Medical
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special instruction</legend>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+    </main>
+    <footer> 
+
+    </footer>
+</body>
+</html>
